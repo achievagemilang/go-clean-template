@@ -1,0 +1,41 @@
+{
+  "app": {
+    "name": "go-clean-template",
+    "api_key": "will-be-overwritten-by-env"
+  },
+  "web": {
+    "prefork": false,
+    "port": 8080
+  },
+  "log": {
+    "level": 6
+  },
+  "database": {
+    "username": "postgres",
+    "password": "postgres",
+    "host": "localhost",
+    "port": 54320,
+    "name": "go_clean_db",
+    "pool": {
+      "idle": 10,
+      "max": 100,
+      "lifetime": 300
+    }
+  },
+  "kafka": {
+    "bootstrap": {
+      "servers": "localhost:9092"
+    },
+    "group": {
+      "id": "go-clean-template"
+    },
+    "auto": {
+      "offset": {
+        "reset": "earliest"
+      }
+    },
+    "producer": {
+      "enabled": false
+    }
+  }
+}
