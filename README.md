@@ -142,6 +142,16 @@ To run the application with hot reload, use [Air](https://github.com/air-verse/a
 make dev
 ```
 
+## Contact Me
+
+**OPEN FOR CONTRIBUTIONS.**
+
+This repository is an improved version from [khannedy's Clean Architecture](https://github.com/khannedy/go-clean-template). If you have any questions or suggestions, please feel free to contact me.
+
+- Email : achievafuturagemilang@gmail.com
+- LinkedIn : https://www.linkedin.com/in/achieva-futura-gemilang
+- GitHub : https://github.com/achievagemilang
+
 ## Reference
 
 - [khannedy's Clean Architecture](https://github.com/khannedy/go-clean-template)
